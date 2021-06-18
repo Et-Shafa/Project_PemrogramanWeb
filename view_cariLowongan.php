@@ -16,7 +16,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../bootstrap4/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Cari Lowongan</title>
 </head>
@@ -125,7 +125,7 @@
 			<p>Hasil Pencarian :</p>
 			<article class="artikel">
 
-				<h2>Mengenal Web Standard</h2>
+				<h2>Technical Advisor - Developmental Evaluation for USAID Jalin</h2>
 				<p>
 				Apa itu Web Standard? Web Standard adalah teknologi yang dibangun oleh W3C dan lainnya yang dikembangkan untuk menginterpretasikan konten web agar memiliki standar yang dapat dinikmati oleh semua kalangan dan dapat diakses di semua <em>device</em> (smartphone, tablet, desktop dan lain sebagainya).
 				</p>
@@ -134,7 +134,7 @@
 
 			<article class="artikel">
 
-				<h2>Mengenal Web Standard</h2>
+				<h2>Claim Analyst - Medical</h2>
 				<p>
 				Apa itu Web Standard? Web Standard adalah teknologi yang dibangun oleh W3C dan lainnya yang dikembangkan untuk menginterpretasikan konten web agar memiliki standar yang dapat dinikmati oleh semua kalangan dan dapat diakses di semua <em>device</em> (smartphone, tablet, desktop dan lain sebagainya).
 				</p>
@@ -147,8 +147,9 @@
 	
 
 	
-	<footer style=";">
+	<footer style="height: 200px;">
 		<div class="footer_line"></div>
+		<p>NEED.ID 2021</p>
 		<!-- <div style="display: inline-block; margin-bottom: 10px;">
 			<a href="https://api.whatsapp.com/send?phone=6282234078626&text=Hai" target="_blank"><img src="image/whatsapp.png"
 			width="20px" alt=""> Whatsapp</a>

@@ -17,7 +17,7 @@
  <head>
  	<meta charset="UTF-8">
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css">
  	<title>Review</title>
  </head>
@@ -82,15 +82,22 @@
         <p>ARTIKEL</p>
         <P>Temukan review dan peringkat perusahaan terbaik saat ini</P>
 
+        <form class="form-inline my-2 my-lg-0" style="  justify-content: center;">
+            <input class="form-control mr-sm-2" type="search" name="carireview" style="border: 3px solid #E8713C; width: 40%;">
+            <button class="btn my-2 my-sm-0" type="submit" style="background-color: #E8713C;">Cari</button>
+        </form>
+
         <article class="artikel">
-            asndkafkmafn
+            03 Besar Review dan peringkat perusahaan terbaik
+            <br>
+            <img width=25% src='gambar/gojek.png' >
+            <img width=25% src='gambar/indomaret.jpg' style="margin-left: 15px;">
+            <img width=25% src='gambar/alfa.jpg' style="margin-left: 15px;">
             
         </article>
     </div>
 
-        <img width=200 height=260 src='gambar/gojek.png'>
-        <img width=200 height=260 src='gambar/indomaret.jpg'>
-        <img width=200 height=260 src='gambar/alfa.jpg'>
+        
 
  	
  </body>
