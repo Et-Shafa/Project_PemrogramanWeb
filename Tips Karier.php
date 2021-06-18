@@ -29,5 +29,5 @@
 	<h2>ARTIKEL</h2>
 	<p>tips karier buat kamu yan ingin mengetahui tips karier !</p>
 
-</form>
+<form>
 </div>
