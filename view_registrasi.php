@@ -28,7 +28,7 @@
 			<input class="in" type="password" name="passw" placeholder="Password">
 
 			<br>
-			<input id="btnLogin" type="submit" name="login" value="Login">
+			<input id="btnLogin" type="submit" name="login" value="Registrasi">
 			<input type="submit" name="x" class="x" value="">
 		</form>
 	</div>

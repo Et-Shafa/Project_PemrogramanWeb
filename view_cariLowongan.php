@@ -1,10 +1,10 @@
 <?php 
 	if(isset($_GET['log'])){
-			require 'login.php';
+			require 'view_login.php';
 		}
 
 	if(isset($_GET['reg'])){
-			require 'registrasi.php';
+			require 'view_registrasi.php';
 		}
 
 	
