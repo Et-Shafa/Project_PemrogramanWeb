@@ -30,4 +30,4 @@
 	<p>tips karier buat kamu yan ingin mengetahui tips karier !</p>
 
 <form>
-</div>
+<div>
