@@ -78,13 +78,13 @@
     </nav>
 
     <div class="badan" style="text-align: center;">
-        <p>ARTIKEL</p>
+        <p style="font-family: serif;"><strong><h3>ARTIKEL</h3></strong></p>
         <P>Tips karir untuk kamu yang ingin mengetahui bagaimana membangun karir kamu</P>
 
-        <article class="artikel">
+        <!-- <article class="artikel">
             asndkafkmafn
             
-        </article>
+        </article> -->
         <div class="container">
         <!-- <h1>Cari lowongan kerja sesuai minat</h1>  -->
         <div class="card card-defaul" style="margin-bottom: 20px;">
@@ -168,7 +168,7 @@
         </div>
     </div>
 
-    <footer style="height: 200px;">
+    <footer style="height: 50px;">
         <div class="footer_line"></div>
         <p>NEED.ID 2021</p>
         

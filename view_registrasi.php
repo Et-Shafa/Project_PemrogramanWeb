@@ -1,5 +1,5 @@
 <?php
-	// require 'db.php';	
+	require 'dbmanager.php';	
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>login</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="../" /> -->
 
 	
 </head>
@@ -28,7 +27,7 @@
 			<input class="in" type="password" name="passw" placeholder="Password">
 
 			<br>
-			<input id="btnLogin" type="submit" name="login" value="Registrasi">
+			<input id="btnLogin" type="submit" name="registrasi" value="Registrasi">
 			<input type="submit" name="x" class="x" value="">
 		</form>
 	</div>
@@ -37,6 +36,9 @@
 		if (isset($_POST['x'])) {
 			header('location: view_cariLowongan.php');
 			exit;
+		}
+		if(isset($_POST['registrasi'])){
+			echo inpReg($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['username'], $_POST['passw']);
 		}
 		// session_start();
 		// if(isset($_COOKIE['username'])){

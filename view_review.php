@@ -79,7 +79,7 @@
 
 
     <div class="badan" style="text-align: center;">
-        <p>ARTIKEL</p>
+        <p style="font-family: serif;"><strong><h3>Telusuri</h3></strong></p>
         <P>Temukan review dan peringkat perusahaan terbaik saat ini</P>
 
         <form class="form-inline my-2 my-lg-0" style="  justify-content: center;">

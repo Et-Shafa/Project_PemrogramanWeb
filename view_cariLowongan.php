@@ -127,7 +127,7 @@
 
 				<h2>Technical Advisor - Developmental Evaluation for USAID Jalin</h2>
 				<p>
-				Apa itu Web Standard? Web Standard adalah teknologi yang dibangun oleh W3C dan lainnya yang dikembangkan untuk menginterpretasikan konten web agar memiliki standar yang dapat dinikmati oleh semua kalangan dan dapat diakses di semua <em>device</em> (smartphone, tablet, desktop dan lain sebagainya).
+				Social Impact, Inc. (SI) is a global development management consulting firm. We provide monitoring, evaluation, strategic planning, and capacity building services to advance development effectiveness. We work across all development sectors including democracy and governance, health and education, the environment, and economic growth. Since 1997 we have worked in over 100 countries for clients such as US government agencies, bilateral donors, multilateral development banks, foundations, and nonprofits.
 				</p>
 				
 			</article>
@@ -136,7 +136,14 @@
 
 				<h2>Claim Analyst - Medical</h2>
 				<p>
-				Apa itu Web Standard? Web Standard adalah teknologi yang dibangun oleh W3C dan lainnya yang dikembangkan untuk menginterpretasikan konten web agar memiliki standar yang dapat dinikmati oleh semua kalangan dan dapat diakses di semua <em>device</em> (smartphone, tablet, desktop dan lain sebagainya).
+				AMonitor claim analysis process to make sure it is done accurately and appropriately along with processing claim based on standards sets by the Company.
+				Reviews and analyzes claims loss.
+				Verifying and updating information on submitted claims.
+				Contacting the Hospitals/Clinics and Pharmacies, especially those related to official receipt and billing detail issued by the hospitals/clinics/pharmacies so the claim process can run smoothly and payment made appropriately.
+				Processing a claim based on standards set by the Company.
+				Monitor the process of pending and decline claims along with its reasons.
+				Provide information to Department Head or its Superiors if any suspicious things or does not fit the standards.
+				Maintenance of records, files, and documentation
 				</p>
 				
 			</article>
@@ -147,7 +154,7 @@
 	
 
 	
-	<footer style="height: 200px;">
+	<footer style="margin-top: 20px;">
 		<div class="footer_line"></div>
 		<p>NEED.ID 2021</p>
 		<!-- <div style="display: inline-block; margin-bottom: 10px;">
