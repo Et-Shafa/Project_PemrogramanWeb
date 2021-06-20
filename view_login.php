@@ -1,5 +1,5 @@
 <?php
-	// require 'db.php';	
+	require 'dbmanager.php';	
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,6 +35,7 @@
 			header('location: view_cariLowongan.php');
 			exit;
 		}
+	
 		// session_start();
 		// if(isset($_COOKIE['username'])){
 		// 	if($_COOKIE['username']==$getUsername){
@@ -55,6 +56,7 @@
 			
 
 		// }
+	
 	?>
 
 </body>

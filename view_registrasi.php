@@ -38,8 +38,18 @@
 			exit;
 		}
 		if(isset($_POST['registrasi'])){
-			echo inpReg($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['username'], $_POST['passw']);
+			readUser();
+			if($_POST['username'] in $daftar_username){
+				echo "<script>alert('Username sudah dipakai')</script>";
+			}else{
+				echo inpReg($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['username'], $_POST['passw']);
+				header('location: view_cariLowongan.php');
+				exit;
+			}
+			
 		}
+		// readUser();
+		// echo $daftar_username[0];
 		// session_start();
 		// if(isset($_COOKIE['username'])){
 		// 	if($_COOKIE['username']==$getUsername){

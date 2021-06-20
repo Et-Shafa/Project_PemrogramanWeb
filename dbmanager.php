@@ -52,37 +52,31 @@ function inpReg($first_name, $last_name, $email, $username, $password){
 }
 
 
-function read(){
+function readUser(){
   global $conn;
   $sql = "SELECT id, first_name, last_name, email, username, password FROM user";
   $result = $conn->query($sql);
-  if ($result->num_rows > 0) {
-        echo "<table>";
-        echo "<tr>".
-            "<td>". "id". "</td>".
-            "<td>". "first_name". "</td>".
-            "<td>". "last_name". "</td>".
-            "<td>". "email". "</td>".
-            "<td>". "username". "</td>". 
-            "<td>". "password". "</td>".
-            "</tr>";
+  // if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()) {
-            echo "<tr>".
-                "<td>".$row["id"]."</td>".
-                "<td>".$row["first_name"]."</td>".
-                "<td>".$row["last_name"]."</td>".
-                "<td>".$row["email"]."</td>".
-                "<td>".$row["username"]."</td>".
-                "<td>".$row["password"]."</td>".
-                "<td>"."Hapus"."Edit"."</td>".
-                "</tr>";
+            global $daftar_username;
+            $daftar_username[] = $row["username"];
+            // $row["username"];
         }
-        echo "</table>";
-    } else {
-    echo "Tidak ada data pada Table";
-    }
+    // }
+    // }
 }
-
+readUser();
+// echo $daftar_username[1];
+// if ($daftar_username)
+// for ($i = 0 ; $i count($daftar_username); $i++) {
+//     // echo $daftar_username[$i];
+//     echo $i;
+// }
+for ($i = 0 ; $i <= 2; $i++) {
+    // echo $daftar_username[$i];
+    echo $i;
+}
+// echo count($daftar_username);
 // function delete($id){
 //     global $conn;
 //     $sql = "DELETE FROM `city` WHERE ID=$id";
